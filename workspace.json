@@ -2,6 +2,7 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "feature-shopping-cart": "libs/feature-shopping-cart",
     "to-b-ordering-without-e2e-test": "apps/to-b-ordering-without-e2e-test"
   }
 }
