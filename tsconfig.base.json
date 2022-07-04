@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@test-nx/feature-shopping-cart": [
+        "libs/feature-shopping-cart/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
